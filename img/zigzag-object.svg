@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 30">
+  <style>
+  .path {
+    stroke: #FFFFFF !important;
+    stroke-dasharray: 150;
+    stroke-dashoffset: 150;
+  }
+
+  .path {
+      animation: dash .5s linear forwards;
+  }
+    
+    @keyframes dash {
+    from {
+        stroke-dashoffset: 150;
+    }
+    to {
+        stroke-dashoffset: 0;
+    }
+  }
+</style>
+  <path class="path" fill="none" stroke="#000" stroke-width="3" stroke-linecap="round" stroke-miterlimit="10" d="M2.48 16.05h17.9L24.83 4.4l8.34 21.1 7.78-21.1 7.78 21.1 7.78-21.1 4.45 11.1h16.67"/>
+</svg>
